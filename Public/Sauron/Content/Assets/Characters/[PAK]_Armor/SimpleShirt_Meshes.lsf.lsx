@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="602" lslib_meta="v1,bswap_guids" />
+	<region id="MaterialBank">
+		<node id="MaterialBank">
+			<children>
+			----------Textura para casco----------
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					----------Este id se usa en el visual resource de abajo----------
+					<attribute id="ID" type="FixedString" value="93a77e11-d7f9-493e-8b26-f70217a72c96" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+					<attribute id="Name" type="LSString" value="Helmet" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="9dc5807b-3697-4b8f-ab0f-b9c5c1bd7010" />
+							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters"> --Aqui empiezan los normals--
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="e93e41ba-d6ab-4e90-93c3-f797710a0086" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node> --Aqui terminan los normals--
+						<node id="Texture2DParameters"> --Aqui empiezan los BM--
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="ba04181a-c239-4f97-a1bd-ffc7ff2f9cb2" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node> --Aqui terminan los BM--
+					</children>
+				</node>
+			----------Textura para el cuerpo----------
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					----------Este id se usa en el visual resource de abajo----------
+					<attribute id="ID" type="FixedString" value="7ecfef63-6b99-4286-89db-f169dad60c18" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+					<attribute id="Name" type="LSString" value="Armor" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="9dc5807b-3697-4b8f-ab0f-b9c5c1bd7010" />
+							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters"> --Aqui empiezan los normals--
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="8adaecd9-85f3-452f-8bf1-8b9027dc514f" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node> --Aqui terminan los normals--
+						<node id="Texture2DParameters"> --Aqui empiezan los BM--
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="5fdc8f4d-0524-4554-8ba2-2d25f8b02bc4" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node> --Aqui terminan los BM--
+					</children>
+				</node>
+			----------Textura para el guantes----------
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					----------Este id se usa en el visual resource de abajo----------
+					<attribute id="ID" type="FixedString" value="caf5be61-ad27-445e-bfae-b066e58ccba4" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+					<attribute id="Name" type="LSString" value="Armor" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="9dc5807b-3697-4b8f-ab0f-b9c5c1bd7010" />
+							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters"> --Aqui empiezan los normals--
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="12337faf-26f5-41d1-9bf5-f4307f99b2f1" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node> --Aqui terminan los normals--
+						<node id="Texture2DParameters"> --Aqui empiezan los BM--
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="81eae039-4762-453a-9eca-2cfda95e236b" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node> --Aqui terminan los BM--
+					</children>
+				</node>
+			----------Textura para piernas----------
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					----------Este id se usa en el visual resource de abajo----------
+					<attribute id="ID" type="FixedString" value="e07bbad3-8a65-41dc-846d-94ef74f4ba11" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+					<attribute id="Name" type="LSString" value="Armor" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="9dc5807b-3697-4b8f-ab0f-b9c5c1bd7010" />
+							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters"> --Aqui empiezan los normals--
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="b0257e97-2a9d-4bd7-aeef-caf3c063136e" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node> --Aqui terminan los normals--
+						<node id="Texture2DParameters"> --Aqui empiezan los BM--
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="67bfe8b6-3ec7-4f65-b918-978f62c864fb" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node> --Aqui terminan los BM--
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+			----------Textura para el casco----------
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" /> --Tamaño de la textura, cuidado--
+					<attribute id="ID" type="FixedString" value="ba04181a-c239-4f97-a1bd-ffc7ff2f9cb2" />
+					<attribute id="Localized" type="bool" value="False" /> 8adaecd9-85f3-452f-8bf1-8b9027dc514f
+					<attribute id="Name" type="LSString" value="Sauron_Helmet_BM" />
+					<attribute id="SRGB" type="bool" value="False" /> --Puede o no hacer la textura más oscura, se requiere observación--
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Textures/Sauron_Helmet_BM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Sauron_Helmet_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" /> --Tamaño de la textura, cuidado--
+					<attribute id="ID" type="FixedString" value="e93e41ba-d6ab-4e90-93c3-f797710a0086" />
+					<attribute id="Localized" type="bool" value="False" /> 
+					<attribute id="Name" type="LSString" value="Sauron_Armor_NM" />
+					<attribute id="SRGB" type="bool" value="False" /> --Puede o no hacer la textura más oscura, se requiere observación--
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Textures/Sauron_Helmet_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Sauron_Armor_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+			----------Textura para el cuerpo----------
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="ID" type="FixedString" value="5fdc8f4d-0524-4554-8ba2-2d25f8b02bc4" />
+					<attribute id="Localized" type="bool" value="False" /> 8adaecd9-85f3-452f-8bf1-8b9027dc514f
+					<attribute id="Name" type="LSString" value="Sauron_Armor_BM" />
+					<attribute id="SRGB" type="bool" value="False" /> --Puede o no hacer la textura más oscura, se requiere observación--
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Textures/Sauron_Armor_BM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Sauron_Armor_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="ID" type="FixedString" value="8adaecd9-85f3-452f-8bf1-8b9027dc514f" />
+					<attribute id="Localized" type="bool" value="False" /> 
+					<attribute id="Name" type="LSString" value="Sauron_Armor_NM" />
+					<attribute id="SRGB" type="bool" value="False" /> --Puede o no hacer la textura más oscura, se requiere observación--
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Textures/Sauron_Armor_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Sauron_Armor_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+			----------Textura para el guantes----------
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="ID" type="FixedString" value="81eae039-4762-453a-9eca-2cfda95e236b" />
+					<attribute id="Localized" type="bool" value="False" /> 8adaecd9-85f3-452f-8bf1-8b9027dc514f
+					<attribute id="Name" type="LSString" value="Sauron_Gloves_BM" />
+					<attribute id="SRGB" type="bool" value="False" /> --Puede o no hacer la textura más oscura, se requiere observación--
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Textures/Sauron_Gloves_BM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Sauron_Gloves_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="ID" type="FixedString" value="12337faf-26f5-41d1-9bf5-f4307f99b2f1" />
+					<attribute id="Localized" type="bool" value="False" /> 
+					<attribute id="Name" type="LSString" value="Sauron_Gloves_NM" />
+					<attribute id="SRGB" type="bool" value="False" /> --Puede o no hacer la textura más oscura, se requiere observación--
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Textures/Sauron_Gloves_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Sauron_Gloves_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+			----------Textura para piernas----------
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" /> --Tamaño de la textura, cuidado--
+					<attribute id="ID" type="FixedString" value="67bfe8b6-3ec7-4f65-b918-978f62c864fb" />
+					<attribute id="Localized" type="bool" value="False" /> 8adaecd9-85f3-452f-8bf1-8b9027dc514f
+					<attribute id="Name" type="LSString" value="Sauron_Legs_BM" />
+					<attribute id="SRGB" type="bool" value="False" /> --Puede o no hacer la textura más oscura, se requiere observación--
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Textures/Sauron_Legs_BM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Sauron_Legs_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" /> --Tamaño de la textura, cuidado--
+					<attribute id="ID" type="FixedString" value="b0257e97-2a9d-4bd7-aeef-caf3c063136e" />
+					<attribute id="Localized" type="bool" value="False" /> 
+					<attribute id="Name" type="LSString" value="Sauron_Legs_NM" />
+					<attribute id="SRGB" type="bool" value="False" /> --Puede o no hacer la textura más oscura, se requiere observación--
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Textures/Sauron_Legs_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Sauron_Legs_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" /> --Tamaño de la textura, cuidado--
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+			</children>
+		</node>
+	</region>
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+			----------Meshes para el casco----------
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.06529606 0.03255851 0.1843714" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.06598151 -0.02155516 -0.6044511" />
+					<attribute id="Center" type="fvec3" value="-0.0003427267 0.005501673 -0.2100399" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="c521225c-b20e-44dc-9dae-be4051941d8c" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="Sauron_Helmet" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.4007502" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Helmet.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Helmet.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241409" />
+					<children>
+						<node id="Base">
+							<children>
+								<node id="Tags">
+									<attribute id="Object" type="FixedString" value="Hide Ears" />
+								</node>
+							</children>
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="93a77e11-d7f9-493e-8b26-f70217a72c96" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Helmet.Sauron_Helmet.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="93a77e11-d7f9-493e-8b26-f70217a72c96" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Helmet.Sauron_LOD1_Mesh.1" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_01" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_02" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Hide Head/Beard/Ears" />
+						</node>
+					</children>
+				</node>
+			----------Meshes para el cuerpo----------
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.7266838 1.72827 0.1399443" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.7313986 1.152154 -0.1670274" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="80afcac2-001b-48b2-9163-3716dd481718" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="22" />
+					<attribute id="Name" type="LSString" value="Sauron_Armor" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.55" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Armor.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Armor.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="7ecfef63-6b99-4286-89db-f169dad60c18" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Armor.Sauron.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="7ecfef63-6b99-4286-89db-f169dad60c18" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Armor.Sauron_LOD1_Mesh.1" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="upperarm" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="wrists" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Torso" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="lowerarm" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Shoulders" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Thighs" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="shins" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="knees" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_01" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_02" />
+						</node>
+					</children>
+				</node>
+			----------Meshes para el guantes----------
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.7266838 1.72827 0.1399443" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.7313986 1.152154 -0.1670274" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="a69d81ef-84d5-4fcf-9bac-71f4fb0f1eae" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Sauron_Gloves" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.55" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Gloves.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Gloves.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="caf5be61-ad27-445e-bfae-b066e58ccba4" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Gloves.Sauron_Gloves.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="caf5be61-ad27-445e-bfae-b066e58ccba4" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Gloves.Sauron_Gloves_LOD1_Mesh.1" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="wrists" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="lowerarm" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Sleeves" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="hands" />
+						</node>
+					</children>
+				</node>
+			----------Meshes para el piernas----------
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.7266838 1.72827 0.1399443" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.7313986 1.152154 -0.1670274" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="b7865d40-c8a8-4634-9109-109f9de6f29f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Sauron_Legs" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.55" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Legs.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Legs.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="e07bbad3-8a65-41dc-846d-94ef74f4ba11" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Legs.Sauron_Legs.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="e07bbad3-8a65-41dc-846d-94ef74f4ba11" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Legs.Sauron_Legs_LOD1_Mesh.1" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="feet" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="shins" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Pants" />
+						</node>
+					</children>
+				</node>
+			----------Meshes para el casco Fuerte----------
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.06529606 0.03255851 0.1843714" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.06598151 -0.02155516 -0.6044511" />
+					<attribute id="Center" type="fvec3" value="-0.0003427267 0.005501673 -0.2100399" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="d3a30e04-4802-48de-b8a6-30b4de92d189" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="Sauron_Helmet" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.4007502" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Helmet_Fuerte.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Helmet_Fuerte.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241409" />
+					<children>
+						<node id="Base">
+							<children>
+								<node id="Tags">
+									<attribute id="Object" type="FixedString" value="Hide Ears" />
+								</node>
+							</children>
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="93a77e11-d7f9-493e-8b26-f70217a72c96" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Helmet.Sauron_Helmet.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="93a77e11-d7f9-493e-8b26-f70217a72c96" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Helmet.Sauron_LOD1_Mesh.1" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_01" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_02" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Hide Head/Beard/Ears" />
+						</node>
+					</children>
+				</node>
+			----------Meshes para el cuerpo Fuerte----------
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.7266838 1.72827 0.1399443" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.7313986 1.152154 -0.1670274" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="0053fd22-eb76-445a-902e-351e86ca7475" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="22" />
+					<attribute id="Name" type="LSString" value="Sauron_Armor" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.55" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Armor_Fuerte.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Armor_Fuerte.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="7ecfef63-6b99-4286-89db-f169dad60c18" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Armor.Sauron.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="7ecfef63-6b99-4286-89db-f169dad60c18" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Armor.Sauron_LOD1_Mesh.1" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="upperarm" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="wrists" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Torso" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="lowerarm" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Shoulders" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Thighs" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="shins" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="knees" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="ModestyLeaf" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_01" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_02" />
+						</node>
+					</children>
+				</node>
+			----------Meshes para el guantes Fuerte----------
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.7266838 1.72827 0.1399443" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.7313986 1.152154 -0.1670274" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="7c5ad1f9-e069-4825-b110-448800b452c8" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Sauron_Gloves" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.55" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Gloves_Fuerte.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Gloves_Fuerte.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="caf5be61-ad27-445e-bfae-b066e58ccba4" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Gloves.Sauron_Gloves.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="caf5be61-ad27-445e-bfae-b066e58ccba4" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Gloves.Sauron_Gloves_LOD1_Mesh.1" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="wrists" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="lowerarm" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Sleeves" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="hands" />
+						</node>
+					</children>
+				</node>
+			----------Meshes para el piernas Fuerte----------
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.7266838 1.72827 0.1399443" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.7313986 1.152154 -0.1670274" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="10477415-0d1b-417c-b56c-8431da8394d6" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Sauron_Legs" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.55" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Legs_Fuerte.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sauron/Assets/Armour/Sauron_Legs_Fuerte.Dummy_Root.0" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="e07bbad3-8a65-41dc-846d-94ef74f4ba11" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Legs.Sauron_Legs.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="e07bbad3-8a65-41dc-846d-94ef74f4ba11" />
+							<attribute id="ObjectID" type="FixedString" value="Sauron_Legs.Sauron_Legs_LOD1_Mesh.1" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="feet" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="shins" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Pants" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

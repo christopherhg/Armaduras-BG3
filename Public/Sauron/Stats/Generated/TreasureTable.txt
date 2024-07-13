@@ -1,0 +1,12 @@
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_Sauron_Helmet",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Sauron_Armor",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Sauron_Gloves",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Sauron_Legs",1,0,0,0,0,0,0,0
+
+
